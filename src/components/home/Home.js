@@ -143,8 +143,8 @@ function Home() {
         </div>
         <div class="carousel-inner">
           <div
-            style={{ backgroundColor: "#0000" }}
-            class="carousel-item active bg-dark"
+            style={{ backgroundColor: "black", position: "relative" }}
+            class="carousel-item active"
           >
             <div class="container">
               <div class="row">
@@ -178,8 +178,13 @@ function Home() {
                 </div>
               </div>
             </div>
+            <div style={{ position: "absolute", right: "15%", bottom: "20px" }}>
+              <p style={{ color: "white" }}>
+                Janaki Devi<br></br> Designer
+              </p>
+            </div>
           </div>
-          <div class="carousel-item bg-dark">
+          <div style={{ backgroundColor: "black" }} class="carousel-item">
             <div class="container">
               <div class="row">
                 <div class="col-md-6 m-auto text-left p-5">
@@ -471,9 +476,13 @@ function Home() {
             </div>
           </div>
           <div class="card" style={{ width: "16rem" }}>
-            <img src="../img/carousel.png" class="card-img-top" alt="..."></img>
+            <img
+              src="../img/carousel-2.jpeg"
+              class="card-img-top"
+              alt="..."
+            ></img>
             <div class="card-body">
-              <h5 class="card-title">Raghavai Ram</h5>
+              <h5 class="card-title">Raghu Ram</h5>
               <p class="card-text">Art Designer</p>
               <div>
                 <img
@@ -510,9 +519,13 @@ function Home() {
             </div>
           </div>
           <div class="card" style={{ width: "16rem" }}>
-            <img src="../img/carousel.png" class="card-img-top" alt="..."></img>
+            <img
+              src="../img/carousel-3.jpeg"
+              class="card-img-top"
+              alt="..."
+            ></img>
             <div class="card-body">
-              <h5 class="card-title">Raghavai Ram</h5>
+              <h5 class="card-title">Bharat Ram</h5>
               <p class="card-text">Art Designer</p>
               <div>
                 <img
@@ -549,48 +562,13 @@ function Home() {
             </div>
           </div>
           <div class="card" style={{ width: "16rem" }}>
-            <img src="../img/carousel.png" class="card-img-top" alt="..."></img>
+            <img
+              src="../img/carousel-4.jpeg"
+              class="card-img-top"
+              alt="..."
+            ></img>
             <div class="card-body">
-              <h5 class="card-title">Raghavai Ram</h5>
-              <p class="card-text">Art Designer</p>
-              <div>
-                <img
-                  style={{ width: "15px", marginRight: "5px" }}
-                  src="../img/rating.png"
-                  class="card-img-top"
-                  alt="..."
-                ></img>
-                <img
-                  style={{ width: "15px", marginRight: "5px" }}
-                  src="../img/rating.png"
-                  class="card-img-top"
-                  alt="..."
-                ></img>
-                <img
-                  style={{ width: "15px", marginRight: "5px" }}
-                  src="../img/rating.png"
-                  class="card-img-top"
-                  alt="..."
-                ></img>
-                <img
-                  style={{ width: "15px", marginRight: "5px" }}
-                  src="../img/rating.png"
-                  class="card-img-top"
-                  alt="..."
-                ></img>
-                <img
-                  style={{ width: "15px", marginRight: "5px" }}
-                  src="../img/rating2.png"
-                  class="card-img-top"
-                  alt="..."
-                ></img>
-              </div>
-            </div>
-          </div>
-          <div class="card" style={{ width: "16rem" }}>
-            <img src="../img/carousel.png" class="card-img-top" alt="..."></img>
-            <div class="card-body">
-              <h5 class="card-title">Raghavai Ram</h5>
+              <h5 class="card-title">Bhargav Ram</h5>
               <p class="card-text">Art Designer</p>
               <div>
                 <img
@@ -778,8 +756,8 @@ function Home() {
       {/* categories------------------------------------section */}
       <div class="catagoris">
         <div style={{ backgroundColor: "#EAEAEA" }} class="mt-5 mb-3 p-5 pb-5">
-          <div style={{paddingLeft:"5%",paddingRight:"5%"}} class="row">
-            <div class="col-6 col-md-3 p-2 footer-list">
+          <div style={{ paddingLeft: "5%", paddingRight: "5%" }} class="row">
+            <div class="col-12 col-md-3 p-2 footer-list">
               <h4 class="pb-2">Categories</h4>
               <h6>Categories</h6>
               <h6>Graphics Design</h6>
@@ -790,7 +768,7 @@ function Home() {
               <h6>Programming & Tect</h6>
               <h6>Database</h6>
             </div>
-            <div class="col-6 col-md-3 p-2 footer-list ">
+            <div class="col-12 col-md-3 p-2 footer-list ">
               <h4 class="pb-2">Sub-Categories</h4>
               <h6>Sub-Categories</h6>
               <h6>Graphics Design</h6>
@@ -801,7 +779,7 @@ function Home() {
               <h6>Programming & Tect</h6>
               <h6>Database</h6>
             </div>
-            <div class="col-6 col-md-3 p-2 footer-list ">
+            <div class="col-12 col-md-3 p-2 footer-list ">
               <h4 class="pb-2">Company</h4>
               <h6>Company</h6>
               <h6>Graphics Design</h6>
@@ -812,7 +790,7 @@ function Home() {
               <h6>Programming & Tect</h6>
               <h6>Database</h6>
             </div>
-            <div class="col-6 col-md-3 p-2 footer-list">
+            <div class="col-12 col-md-3 p-2 footer-list">
               <h4 class="pb-2">Priovacy</h4>
               <h6>Privacy</h6>
               <h6>Graphics Design</h6>
@@ -830,9 +808,7 @@ function Home() {
       {/* footer------------------------------------------section */}
       <footer>
         <div class="container mb-3">
-          <div
-            class="text-start"
-          >
+          <div class="text-start">
             <div class="row justify-content-between align-items-center">
               <div className="col-md-8">
                 <div class="d-flex align-items-center justify-content-start">

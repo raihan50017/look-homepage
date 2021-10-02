@@ -75,10 +75,27 @@
   font-size: 16px;
   font-weight: 600;
 }
-.get-inspired-container{
+.get-inspired-container {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
+}
+.footer-list h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+
+.footer-list h6 {
+  font-size: 18px;
+  line-height: 32px;
+  color: black;
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    width: 12rem !important;
+  }
 }
