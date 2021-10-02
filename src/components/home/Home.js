@@ -757,7 +757,7 @@ function Home() {
       <div class="catagoris">
         <div style={{ backgroundColor: "#EAEAEA" }} class="mt-5 mb-3 p-5 pb-5">
           <div style={{ paddingLeft: "5%", paddingRight: "5%" }} class="row">
-            <div class="col-12 col-md-3 p-2 footer-list">
+            <div class="col-6 col-md-3 p-2 footer-list">
               <h4 class="pb-2">Categories</h4>
               <h6>Categories</h6>
               <h6>Graphics Design</h6>
@@ -768,7 +768,7 @@ function Home() {
               <h6>Programming & Tect</h6>
               <h6>Database</h6>
             </div>
-            <div class="col-12 col-md-3 p-2 footer-list ">
+            <div class="col-6 col-md-3 p-2 footer-list ">
               <h4 class="pb-2">Sub-Categories</h4>
               <h6>Sub-Categories</h6>
               <h6>Graphics Design</h6>
@@ -779,7 +779,7 @@ function Home() {
               <h6>Programming & Tect</h6>
               <h6>Database</h6>
             </div>
-            <div class="col-12 col-md-3 p-2 footer-list ">
+            <div class="col-6 col-md-3 p-2 footer-list ">
               <h4 class="pb-2">Company</h4>
               <h6>Company</h6>
               <h6>Graphics Design</h6>
@@ -790,7 +790,7 @@ function Home() {
               <h6>Programming & Tect</h6>
               <h6>Database</h6>
             </div>
-            <div class="col-12 col-md-3 p-2 footer-list">
+            <div class="col-6 col-md-3 p-2 footer-list">
               <h4 class="pb-2">Priovacy</h4>
               <h6>Privacy</h6>
               <h6>Graphics Design</h6>
@@ -810,8 +810,8 @@ function Home() {
         <div class="container mb-3">
           <div class="text-start">
             <div class="row justify-content-between align-items-center">
-              <div className="col-md-8">
-                <div class="d-flex align-items-center justify-content-start">
+              <div className="col-12 col-md-8">
+                <div class="d-flex align-items-center footer-left justify-content-start">
                   <h4>Loooook</h4>
                   <p
                     style={{
@@ -824,7 +824,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-4 text-end">
+              <div className=" col-12 col-md-4 text-end footer-right">
                 <img className="h-100" src="./img/social-icon.png"></img>
               </div>
             </div>
