@@ -1,0 +1,84 @@
+.padding-l-10 {
+  padding-left: 10%;
+}
+.padding-r-10 {
+  padding-right: 10%;
+}
+
+.navbar {
+  background-color: #717171;
+  color: white;
+}
+.navbar-btn {
+  padding: 3px 14px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+}
+.nav-logo {
+  font-size: 24px;
+  font-weight: 500;
+}
+.slider-btn {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: white;
+  padding: 2px 4px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.slider-search-input-btn {
+  height: 50px;
+  border: none;
+  border-radius: none;
+  padding: 14px 22px;
+  background-color: #717171;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.slider-search-input {
+  border-radius: none;
+  border: none;
+  background-color: #ffff;
+  height: 50px;
+  width: 75%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.88px;
+  padding: 16px;
+}
+
+.more-info-btn {
+  border: none;
+  padding: 8px 28px;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
+
+.powerd-by {
+  background-color: #e9e9e9;
+  padding: 12px 20px;
+}
+
+.free-join-btn {
+  border: none;
+  padding: 12px 38px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.join-free-btn {
+  border: none;
+  padding: 12px 38px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.get-inspired-container{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #F5F5F5;
+}
