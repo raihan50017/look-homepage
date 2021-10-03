@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import ReactPlayer from "react-player";
 
 const responsive = {
   superLargeDesktop: {
@@ -617,6 +618,7 @@ function Home() {
       >
         <div class="carousel-indicators">
           <button
+            style={{ display: "none" }}
             type="button"
             data-bs-target="#carouselExampleIndicators2"
             data-bs-slide-to="0"
@@ -629,6 +631,7 @@ function Home() {
             data-bs-target="#carouselExampleIndicators2"
             data-bs-slide-to="1"
             aria-label="Slide 2"
+            style={{ display: "none" }}
           ></button>
         </div>
         <div class="carousel-inner">
@@ -640,31 +643,18 @@ function Home() {
               <div class="row">
                 <div
                   style={{ padding: "0px" }}
-                  class="col-md-6 text-left h-100"
+                  class="col-lg-6 text-left h-100"
                 >
-                  <div
-                    style={{
-                      backgroundImage: "url('../img/banner-image-2.png')",
-                      width: "100%",
-                      height: "300px",
-                      position: "relative",
-                      backgroundSize: "cover",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "absolute",
-                        top: "0",
-                        left: "0",
-                        width: "100%",
-                        height: "100%",
-                        backgroundColor: "rgba(0,0,0,.5)",
-                      }}
-                    ></div>
-                  </div>
+                  <video
+                    style={{ padding: "0", marginBottom: "-6px", bottom: "0" }}
+                    src="../img/vid.mp4"
+                    width="100%"
+                    height="100%"
+                    controls
+                  ></video>
                 </div>
 
-                <div className="col-md-6">
+                <div className="col-lg-6">
                   <div className="p-5">
                     <h4>Raghava Ram</h4>
                     <p>Fullstack Developer</p>
@@ -682,33 +672,17 @@ function Home() {
           <div style={{ backgroundColor: "#0000" }} class="carousel-item ">
             <div style={{ border: "1px solid black" }} class="container">
               <div class="row">
-                <div
-                  style={{ padding: "0px" }}
-                  class="col-md-6 text-left h-100"
-                >
-                  <div
-                    style={{
-                      backgroundImage: "url('../img/banner-image-2.png')",
-                      width: "100%",
-                      height: "300px",
-                      position: "relative",
-                      backgroundSize: "cover",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "absolute",
-                        top: "0",
-                        left: "0",
-                        width: "100%",
-                        height: "100%",
-                        backgroundColor: "rgba(0,0,0,.5)",
-                      }}
-                    ></div>
-                  </div>
+                <div style={{ padding: "0px" }} class="col-lg-6 h-100">
+                  <video
+                    style={{ padding: "0", margin: "0", marginBottom: "-6px" }}
+                    src="../img/vid.mp4"
+                    width="100%"
+                    height="100%"
+                    controls
+                  ></video>
                 </div>
 
-                <div className="col-md-6">
+                <div className="col-lg-6">
                   <div className="p-5">
                     <h4>Raghava Ram</h4>
                     <p>Fullstack Developer</p>
@@ -725,6 +699,7 @@ function Home() {
           </div>
         </div>
         <button
+          style={{ top: "50%", bottom: "50%" }}
           class="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleIndicators2"
@@ -738,6 +713,7 @@ function Home() {
           <span class="visually-hidden">Previous</span>
         </button>
         <button
+          style={{ top: "50%", bottom: "50%" }}
           class="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleIndicators2"
